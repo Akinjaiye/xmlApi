@@ -13,6 +13,14 @@
 <body>
     <button onclick="showCountries()">Show Countries</button>
 
-    <script></script>
+    <script>
+
+        function showCountries(){
+            let xhr = new XMLHttpRequest()
+
+            xhr.open("GET", "https://restcountries.com/v3.1/all", true);
+        }
+
+    </script>
 </body>
 </html>
